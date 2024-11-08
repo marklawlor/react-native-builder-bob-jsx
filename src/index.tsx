@@ -1,3 +1,6 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
+function Test() {
+  return null;
+}
+export function MyComponent() {
+  return <Test />;
 }
